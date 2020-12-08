@@ -52,7 +52,7 @@ def possible_to_go(x, y, width, height):
             if maze[move_y][move_x] == " ":
                 number_of_neighbour_paths += 1
 
-    if number_of_neighbour_paths > 3:
+    if number_of_neighbour_paths > 2:
         is_possible = False
 
     return is_possible
