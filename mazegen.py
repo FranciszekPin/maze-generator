@@ -23,14 +23,14 @@ def print_maze(width, height):
     print("--------------------------")
 
 
-def make_basic_path(x, y, width, height):
+def generate_maze(x, y, width, height):
     maze[y][x] = " "
     for i in get_random_permutation():
         move_x = x + dirX[i]
         move_y = y + dirY[i]
         if not possible_to_go(move_x, move_y, width, height):
             continue
-        make_basic_path(move_x, move_y, width, height)
+        generate_maze(move_x, move_y, width, height)
 
 
 def possible_to_go(x, y, width, height):
@@ -74,6 +74,6 @@ def get_random_permutation():
 def get_maze(width, height):
     init_empty_maze(width, height)
 
-    make_basic_path(0, 0, width, height)
+    generate_maze(0, 0, width, height)
 
     return maze
