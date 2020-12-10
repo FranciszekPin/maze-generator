@@ -9,7 +9,7 @@ Generate the maze with my algorithm, or use your own.
 ### Displaying maze
 Use provided package to display the generated maze.
 
-![maze picture](./img/maze_picture.png)
+![maze picture](./img/dest.jpg)
 
 ## How to use it
 ### Dependencies
@@ -71,4 +71,4 @@ Then, use it inside 'get_maze' function:
 
 As a result, you will get the following maze:
 
-![custom maze](./img/custom_maze.png)
+![custom maze](./img/dest2.jpg)
