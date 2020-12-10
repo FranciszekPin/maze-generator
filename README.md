@@ -4,26 +4,29 @@ Script generating maze by given algorithm and showing it graphically
 ## Features
 ### Generating maze
 Generate the maze with my algorithm, or use your own.
+[This wikipedia page](https://en.wikipedia.org/wiki/Maze_generation_algorithm) contains many interesting examples of maze generation.
 
 ### Display maze
 Use provided package to display the generated maze.
+
+![maze picture](./img/maze_picture.png)
 
 ## How to use it
 ### Dependencies
 Script requires `Python 3` with `PyGame` installed on your machine.
 
 ### Default algorithm
-Clone this repo on your local machine and go into project folder
+Clone this repo on your local machine and go into project folder:
 
     git clone https://github.com/FranciszekPin/maze-generator
     cd maze-generator
 
 
-To see default maze just run
+To see default maze run:
 
     python3 main.py
 
-You should see some random maze
+You should see some random maze from picture above.
 
 ### Changing maze properties
 It is possible to change few maze properties. In `main.py` there is a section:
@@ -47,7 +50,7 @@ By changing this values you can change maze's size, width and height.
     
         return maze
 
-Your algorithm should edit `maze` variable, which is 2D Python list. 
+Your algorithm should modify `maze` variable, which is 2D Python list. 
 By default, this list has all values set to `'x'` which means 'no crossing'.
 By setting some maze values to `' '` you can define where there should be 'crossing'.
 Your algorithm should work for given `width` and `height`.
@@ -67,3 +70,5 @@ Then, use it inside 'get_maze' function:
         return maze
 
 As a result, you will get the following maze:
+
+![custom maze](./img/custom_maze.png)
