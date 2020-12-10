@@ -6,7 +6,7 @@ Script generating maze by given algorithm and showing it graphically
 Generate the maze with my algorithm, or use your own.
 [This wikipedia page](https://en.wikipedia.org/wiki/Maze_generation_algorithm) contains many interesting examples of maze generation.
 
-### Display maze
+### Displaying maze
 Use provided package to display the generated maze.
 
 ![maze picture](./img/maze_picture.png)
