@@ -18,7 +18,7 @@ Script requires `Python 3` with `PyGame` installed on your machine.
 ### Default algorithm
 Clone this repo on your local machine and go into project folder:
 
-    git clone https://github.com/FranciszekPin/maze-generator
+    git clone https://github.com/FranciszekPin/maze-generator.git
     cd maze-generator
 
 
